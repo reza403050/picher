@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#permission-page, #register-page, #main-page {
+    text-align: center;
+}
+
+.filter-btn {
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#image-preview {
+    width: 100%;
+    max-width: 300px; /* برای جلوگیری از بزرگ شدن بیش از حد در نمایشگرهای بزرگ */
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    min-height: 200px;
+}
