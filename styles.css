@@ -1,0 +1,15 @@
+body {
+ font-family: Arial, sans-serif;
+}
+
+#permission-page, #register-page, #main-page {
+ text-align: center;
+}
+
+.filter-btn {
+ margin: 10px;
+}
+
+#image-preview {
+ width: 100%;
+}
