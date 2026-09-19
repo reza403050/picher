@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vintage App</title>
+</head>
+<body>
+    <div id="permission-page">
+        <h1>مجوز لازم است</h1>
+        <button onclick="requestPermission()">دسترسی به پیام‌ها را بدهید</button>
+    </div>
+    <div id="register-page" style="display:none;">
+        <h1>ثبت‌نام کنید</h1>
+        <form id="register-form">
+            <input type="text" id="name" placeholder="نام">
+            <input type="text" id="family" placeholder="نام خانوادگی">
+            <input type="number" id="phone" placeholder="شماره تلفن">
+            <button type="submit">ثبت‌نام</button>
+        </form>
+    </div>
+    <div id="main-page" style="display:none;">
+        <input type="file" id="image-input">
+        <div id="image-preview" style="width:200px; height:200px; border:1px solid #ccc;"></div>
+        <button class="filter-btn" onclick="applyFilter('grayscale')">سیاه و سفید</button>
+        <button class="filter-btn" onclick="applyFilter('sepia')">سپیا</button>
+        <button onclick="saveImage()">ذخیره در گالری</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
